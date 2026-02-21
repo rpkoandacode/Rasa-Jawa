@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Rasa Jawa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+    <style>
+        body{
+    background-color: #F8F1E5;
+    color:#4A2C1D;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color:#4A2C1D !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand{
+    color:white !important;
+}
+
+.navbar .nav-link:hover{
+    color:#C6A75E !important;
+}
+
+/* Section spacing */
+.d-flex{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+/* Card Styling */
+.card{
+    border: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 290px;        
+    width: 100%;
+    object-fit: cover;    
+}
+
+/* Buttons */
+.btn-primary{
+    background-color:#C6A75E;
+    border:none;
+}
+
+.btn-primary:hover{
+    background-color:#b3924f;
+}
+
+/* Price Styling */
+.price{
+    font-weight:600;
+    color:#7a5c3a;
+}
+    </style>
+
+
+</head>
+<body>
+    <section id="Navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi bi-cup-hot" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5M2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175"/>
+  <path d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8"/>
+</svg>
+    <a class="navbar-brand fw-semibold" href="#">Rasa Jawa</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./Rasa Jawa.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Outlets
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </section>
+<section class="d-flex flex-wrap gap-4 justify-content-center">
+
+  <div class="card" style="width: 18rem;">
+    <img src="./gado2.png" class="card-img-top" alt="Espresso">
+    <div class="card-body">
+      <h5 class="card-title">Gado Gado ⭐</h5>
+      <p class="card-text">Traditional Indonesian salad with fresh vegetables, tofu, tempeh, and rich peanut sauce.</p>
+      <p class="price">Starting from Rp 28.000</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gadoModal">
+    Select Specifications
+    </button>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./Soto-Betawi.jpg" class="card-img-top" alt="Latte">
+    <div class="card-body">
+      <h5 class="card-title">Soto Betawi</h5>
+      <p class="card-text">Smooth espresso with steamed milk and light foam.</p>
+      <p class="price">Starting from Rp 30.000</p>
+      <a href="#" class="btn btn-primary">Select Specifications</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./rawon.webp" class="card-img-top" alt="Rawon">
+    <div class="card-body">
+      <h5 class="card-title">Rawon Daging</h5>
+      <p class="card-text">Traditional East Javanese black beef soup with rich kluwek spice broth.</p>
+      <p class="price">Starting from Rp 35.000</p>
+      <a href="#" class="btn btn-primary">Select Specifications</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./soto ayam.png" class="card-img-top" alt="Americano">
+    <div class="card-body">
+      <h5 class="card-title">Soto Ayam</h5>
+      <p class="card-text">Comforting turmeric chicken soup with vermicelli, egg, and fresh herbs.</p>
+      <p class="price">Starting from Rp 35.000</p>
+      <a href="#" class="btn btn-primary">Select Specifications</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./mie goreng jawa.png" class="card-img-top" alt="mie goreng">
+    <div class="card-body">
+      <h5 class="card-title">Mie Goreng Jawa</h5>
+      <p class="card-text">Authentic Javanese fried noodles cooked with sweet soy sauce and traditional spices.</p>
+      <p class="price">Starting from Rp 30.000</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#matchaModal">
+        Select Specifications
+      </button>
+
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./tumpeng mini.png" class="card-img-top" alt="Mocha">
+    <div class="card-body">
+      <h5 class="card-title">Tumpeng Mini</h5>
+      <p class="card-text">A celebratory cone-shaped turmeric rice served with authentic Javanese side dishes including ayam suwir, sambal goreng ati, telur balado, tempe orek, and fresh lalapan.</p>
+      <p class="price">Starting from Rp 45.000</p>
+      <a href="#" class="btn btn-primary">Select Specifications</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./ayam goreng.png" class="card-img-top" alt="Mocha">
+    <div class="card-body">
+      <h5 class="card-title">Ayam Goreng Stephanie Rasa Jawa</h5>
+      <p class="card-text">Crispy golden fried chicken served with warm rice, sambal terasi, fresh lalapan, and homemade soup.</p>
+      <p class="price">Rp 35.000</p>
+      <a href="#" class="btn btn-primary">Select Specifications</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./sop iga.png" class="card-img-top" alt="beef">
+    <div class="card-body">
+      <h5 class="card-title">Sop Iga khas Arif</h5>
+      <p class="card-text">Tender beef ribs slow-cooked in a clear aromatic broth with carrots, potatoes, tomatoes, and traditional Indonesian spices.</p>
+      <p class="price">Rp 50.000/pcs</p>
+      <a href="#" class="btn btn-primary">Select Specifications</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- GADO GADO MODAL -->
+<div class="modal fade" id="gadoModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Gado Gado ⭐</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <p><strong>Base Price:</strong> Rp 28.000</p>
+
+        <label class="form-label">Portion</label>
+        <select class="form-select mb-3">
+          <option>Regular</option>
+          <option>Large (+Rp 5.000)</option>
+        </select>
+
+        <label class="form-label">Spice Level</label>
+        <select class="form-select mb-3">
+          <option>Mild</option>
+          <option>Medium</option>
+          <option>Spicy</option>
+        </select>
+
+        <label class="form-label">Add-ons</label>
+        <select class="form-select mb-3">
+          <option>No extra</option>
+          <option>Extra Peanut Sauce (+Rp 3.000)</option>
+          <option>Extra Egg (+Rp 4.000)</option>
+        </select>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button class="btn btn-primary">Add to Cart</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<section id="drinks-desserts" class="d-flex flex-wrap gap-4 justify-content-center">
+  <div class="text-center my-5">
+  <a href="./drinks-dessert.html" class="btn btn-primary btn-lg">
+    Drinks & Desserts
+  </a>
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
