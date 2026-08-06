@@ -83,10 +83,30 @@
         margin-top: 50px;
         }
 
-        .heroimage{
-            height: 400px;
-            width: 370px;
-        }
+        .hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.heroimage {
+    width: 100%;
+    max-width: 420px;
+    max-height: 380px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 12px 28px rgba(74, 44, 29, 0.12);
+}
+
+@media (max-width: 576px) {
+    .heroimage {
+        max-width: 280px;
+        max-height: 280px;
+    }
+}
+        
     </style>
 </head>
 
